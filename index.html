@@ -7,7 +7,33 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    
+    <header>
+        <h1>Vacation Destination Wishlist</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit tenetur excepturi modi deserunt hic facere iusto, molestias cupiditate eius. Quasi repellendus cupiditate soluta maiores similique facere qui enim corrupti exercitationem.</p>
+    </header>
+    <main>
+        <section id="form_section">
+            <form id="">
+                <label for="destination_input" ></label>
+                <input type="text" id="destination_input" placeholder="Enter destination name" required git/>
+                <label for="location_input" ></label>
+                <input type="text" id="location_input" placeholder="Enter a location" required />
+                <label for="photo_url_input" ></label>
+                <input type="url" id="photo_url_input" placeholder="Enter an image url" />
+                <label for="description_input" ></label>
+                <textarea id="description_input" placeholder="Enter description" cols="30" rows="30"></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+
+        <section id="right_section">
+            <article id="title_container">
+                <h4 id="dynamic_card_title">Enter Destination Details</h4>
+            </article>
+            <article id="cards_container"></article>
+        </section>
+    </main>
 
     <script defer async src="./js/script.js"></script>
 </body>
