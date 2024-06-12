@@ -2,6 +2,18 @@
     box-sizing: border-box;
 }
 
-header {
-    border: 1px solid red;
+main section {
+    padding: 1em;
+}
+
+#form_section {
+    width: 40%;
+}
+
+#right_section {
+    width: 60%;
+}
+
+.card {
+    margin-bottom: 1em;
 }
