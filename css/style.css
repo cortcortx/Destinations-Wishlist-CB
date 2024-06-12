@@ -17,3 +17,14 @@ main section {
 .card {
     margin-bottom: 1em;
 }
+
+@media (max-width: 690px){
+    .d-flex{
+        flex-direction: column;
+        align-items: center;
+    }
+    #form_section, #right_section {
+    width: 100%;
+    }
+
+}
